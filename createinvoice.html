@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Quick fix || Create a Invoice</title>
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <nav class="sidebar">
+      <div class="sidebar__menu"></div>
+      <ul class="side-nav">
+        <li class="reception__sidebar-nav-item reception">
+          <a href="/allcustomers.php"><img class="reception-icon--1" src="img/reception/reception1.svg"
+              alt="Reception Images" /><span>Customers</span></a>
+        </li>
+        <li class="reception__sidebar-nav-item reception">
+          <a href="/allvehicles.php"><img src="img/reception/reception2.svg"
+              alt="Reception Images" /><span>Vehicles</span></a>
+        </li>
+        <li class="reception__sidebar-nav-item reception">
+          <a href="/alljobs.php"><img src="img/reception/reception3.svg" alt="Reception Images" /><span>Jobs</span></a>
+        </li>
+        <li class="reception__sidebar-nav-item reception">
+          <a href="/invoicepage.html"><img src="img/reception/reception4.svg"
+              alt="Reception Images" /><span>Invoice</span></a>
+        </li>
+        <li class="reception__sidebar-nav-item reception">
+          <a href="/availableparts.php"><img src="img/reception/reception5.svg"
+              alt="Reception Images" /><span>Parts</span></a>
+        </li>
+        <li class="reception__sidebar-nav-item reception reception-last">
+          <a href="/login.html"><img src="img/reception/reception7.svg" alt="Reception Images" /><span>Logout</span></a>
+        </li>
+      </ul>
+    </nav>
+    <div class="right-side">
+      <header class="header">
+        <div class="user-avatar">
+          <div class="user-avatar__box">
+            <img src="/assets/images/avatar.png" alt="user" class="user-avatar__photo" />
+          </div>
+          <div class="user-avatar__text">
+            <h3>Welcome</h3>
+            <p>Receptionist 102</p>
+          </div>
+        </div>
+      </header>
+      <main class="admin-view">
+        <div class="dashboard-container">
+          <section class="section section-staff">
+            <div class="staff">
+              <div class="staff__total">
+                <h3 class="staff__total-text">Create Invoice</h3>
+              </div>
+            </div>
+          </section>
+
+          <section class="section-form">
+            <form class="form" action="seeinvoice.html">
+              <div class="form__box">
+                <div class="form__input-box form__input-box--left">
+                  <label for="fname" class="form__label"> Invoice Number</label>
+                  <input type="text" class="form__input" id="invoiceid" />
+                </div>
+                <div class="form__input-box">
+                  <label for="fname" class="form__label">Invoice Date</label>
+                  <input type="text" class="form__input" id="date" />
+                </div>
+              </div>
+
+              <div class="form__box">
+                <div class="form__input-box">
+                  <label for="fname" class="form__label">Address</label>
+                  <textarea class="form__input" name="" id="address" cols="30" rows="10"></textarea>
+                </div>
+              </div>
+
+              <div class="form__box">
+                <div class="form__input-box form__input-box--left">
+                  <label for="fname" class="form__label">Labour Cost</label>
+                  <input type="text" class="form__input" id="labourcost" />
+                </div>
+                <div class="form__input-box">
+                  <label for="fname" class="form__label">Service Cost</label>
+                  <input type="text" class="form__input" id="servicecost" />
+                </div>
+              </div>
+
+              <div class="form__box">
+                <div class="form__input-box">
+                  <label for="fname" class="form__label">Discount type</label>
+                  <label for="fname" class="form__label">Role</label>
+                    <select class="form__select">
+                      <option>Select Discount</option>
+                      <option>Fixed</option>
+                      <option>Variable</option>
+                      <option>Flexiable</option>
+                    </select>
+                </div>
+                <div class="form__input-box form__input-box--left">
+                  <label for="fname" class="form__label">Discount</label>
+                  <input type="text" class="form__input" id="discount" />
+                </div>
+                <div class="form__input-box">
+                  <label for="fname" class="form__label">VAT</label>
+                  <input type="text" class="form__input" id="vat" />
+                </div>
+              </div>
+              <div class="form__box">
+                <div class="form__input-box form__input-box--left">
+                  <label for="fname" class="form__label">Total Cost</label>
+                  <input type="text" class="form__input" id="totalcost" />
+                </div>
+                <div class="form__input-box">
+                  <label for="fname" class="form__label">Grand Cost</label>
+                  <input type="text" class="form__input" id="grandtototal" />
+                </div>
+              </div>
+
+              <div class="form__box">
+                <div class="form__input-box form__input-box--left">
+                  <label for="fname" class="form__label">Job ID</label>
+                  <input type="text" class="form__input" id="jobid" />
+                </div>
+                <div class="form__input-box">
+                  <label for="fname" class="form__label"> Vehicle Reg Number</label>
+                  <input type="text" class="form__input" id="vehicleregistrationnumber" />
+                </div>
+              </div>
+
+              <div class="form__box">
+                <div class="form__input-box form__input-box--left">
+                  <label for="fname" class="form__label">Customer Card ID</label>
+                  <input type="text" class="form__input" />
+                </div>
+                <div class="form__input-box">
+                  <label for="fname" class="form__label">Stock Ledger part ID</label>
+                  <input type="text" class="form__input" />
+                </div>
+              </div>
+              <div class="form__cta">
+                <button type="submit" class="btn form__btn">Save</button>
+              </div>
+            </form>
+          </section>
+        </div>
+      </main>
+    </div>
+  </div>
+</body>
+
+</html>

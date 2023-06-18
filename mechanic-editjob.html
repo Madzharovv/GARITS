@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Quick fix || Mechanic Edit job</title>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <nav class="sidebar">
+            <div class="sidebar__menu"></div>
+            <ul class="side-nav">
+                <li class="reception__sidebar-nav-item reception">
+                    <a href="/allcustomers.php"
+                      ><img
+                        src="/assets/icons/mechanic.svg"
+                        alt="Reception Images"
+                      /><span>Jobs</span></a
+                    >
+                  </li>
+                  <li class="reception__sidebar-nav-item reception">
+                    <a href="/allvehicles.php"
+                      ><img
+                        src="/assets/icons/tools.svg"
+                        alt="Reception Images"
+                      /><span>Stock</span></a
+                    >
+                  </li>
+                  
+                  <li class="reception__sidebar-nav-item reception reception-last">
+                    <a href="#"
+                      ><img
+                        src="img/reception/reception7.svg"
+                        alt="Reception Images"
+                      /><span>Logout</span></a
+                    >
+                  </li>
+            </ul>
+        </nav>
+        <div class="right-side">
+            <header class="header">
+                <div class="user-avatar">
+                    <div class="user-avatar__box">
+                        <img src="/assets/images/avatar.png" alt="user" class="user-avatar__photo" />
+                    </div>                    
+                    <div class="user-avatar__text">
+                        <h3>Welcome</h3>
+                        <p>GlideAdmin 101</p>
+                    </div>
+                </div>
+            </header>
+            <main class="admin-view">
+                <div class="dashboard-container">
+                    <section class="section section-staff">
+                        <div class="staff">
+                            <div class="edit-header">
+                                <h3 class="staff__total-text">Job Details</h3>
+                            </div>
+                            <div class="edit-header__cta">
+                            <a href="/register-staff.html" class="edit-header__btn">Save</a>
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <section class="section-current-job">
+                        <div class="current-job">
+                            <ul class="current-job__list">
+                                <li class="current-job__item current-job__item--select">
+                                    <label class="current-job__label">Job Status</label>
+                                    <select class="current-job__select current-job__select--item">
+                                        <option>Status</option>
+                                        <option>Completed</option>
+                                        <option>Ongoing</option>
+                                    </select>
+                                </li>
+                            </ul>
+
+                            <div class="form__box">
+                                <div class="form__input-box">
+                                    <label for="fname" class="form__label">Add Part used in job</label>
+                                    <textarea class="form__text-area" style="height:150px"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="semi-disable">
+                            <ul class="current-job__list">
+                                <li class="current-job__item">Job Type: <span class="current-job__span">Lorem Lorem</span></span></li>
+                            </ul>
+
+                            <ul class="current-job__list">
+                                <li class="current-job__item">Estimated Time: <span class="current-job__span">3 weeks</span></li>
+                            </ul>
+
+                            <ul class="current-job__list">
+                                <li class="current-job__item">Job Accepted Date: <span class="current-job__span">22-12-2021</span></li>
+                                <li class="current-job__item">Job Deadline Date: <span class="current-job__span">22-12-2021</span></li>
+                            </ul>
+
+                            <ul class="current-job__list">
+                                <li class="current-job__item">Vehicle Reg. Number: <span class="current-job__span">GC8732IL</span</li>
+                            </ul>
+
+                            <ul class="current-job__list">
+                                <li class="current-job__item">Customer Card ID: <span class="current-job__span">6473464737</span></li>
+                            </ul>
+
+                            <ul class="current-job__list">
+                                <li class="current-job__item">Job Description: <span class="current-job__span current-job__span--desc">Lorem ipsum dolor sit amet, consectetur adipisc 
+                                    aliquam, purus sit amet luctus venenatis Lorem 
+                                    etur adipiscing elit ut 
+                                    aliquam, purus sit amet luctus venenatisLorem ips
+                                    dolor sit amet, consectetur adipiscing elit ut 
+                                    aliquam, purus sit amet luctus venenatis
+                                    iquam, purus sit amet luctus venenatisLorem ip</span></li>
+                            </ul>
+                        </div>
+                        </div>
+                    </section>
+
+                
+            </div>
+            </main>
+        </div>
+    </div>
+</body>
+</html>

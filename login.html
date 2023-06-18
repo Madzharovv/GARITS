@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quick Fix</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="script.js"></script>
+    <style>
+      
+    </style>
+  </head>
+  <body>
+    <section class="container-1">
+      <div class="login">
+
+        <div class="login__details">
+          <div class="login__details-page">
+            <div class="login__details-image--box">
+              <img class="login__details-image" src="img/abstract-electric-car-service-removebg-preview 1.png" alt="Abstract Electric Car Image" />
+            </div>
+            <p class="login__details-text">Book your car at any
+              convenient time anywhere</p>
+            <div class="dots">
+                <svg class="dot dot--fill" width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="9.44706" cy="9.52939" r="8.41765" stroke="#F7F7F7" stroke-width="1.87059"/>
+                </svg>
+                <svg class="dot" width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="9.44706" cy="9.52939" r="8.41765" stroke="#F7F7F7" stroke-width="1.87059"/>
+                </svg>
+                <svg class="dot" width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="9.44706" cy="9.52939" r="8.41765" stroke="#F7F7F7" stroke-width="1.87059"/>
+                    </svg>
+        
+            </div>
+          </div>
+        </div>
+        <div class="login__info">
+          <div class="login__info-image-box">
+            <img class="login__info-image" src="img/QuickFixfitters-logos_transparent1.png" alt="Quick Fix Logo" />
+          </div>
+          <div class="login__info-page">
+            <!-- <div class="login__info-box"> -->
+            <p class="login__info-title">Login</p>
+            <form action="php/login.php" method="POST">
+            <input class="login-info-page--input sm-b" type='text' placeholder="Username"  id="username" name="username" required>
+            <span id="username-error" style="color:red"></span>
+        
+
+            <div class="login__info-page--special">
+            <input class="login-info-page--input " type='password' placeholder="Password" id="password" name="password" required>
+            <span id="password-error" style="color:red"></span>
+                
+            <svg width="20" height="20" viewBox="0 0 38 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M37.0829 15.655C35.5779 12.4843 33.7869 9.89846 31.7099 7.89742L29.5316 10.0757C31.3079 11.7732 32.8552 13.9939 34.193 16.7595C30.6311 24.1318 25.5749 27.6339 18.665 27.6339C16.5909 27.6339 14.6805 27.3145 12.9338 26.6757L10.5735 29.036C12.9996 30.1562 15.6967 30.7163 18.665 30.7163C26.8936 30.7163 33.0328 26.4308 37.0829 17.8598C37.2457 17.5151 37.3301 17.1386 37.3301 16.7574C37.3301 16.3762 37.2457 15.9997 37.0829 15.655V15.655ZM34.3613 1.92768L32.5362 0.10045C32.5044 0.0686057 32.4666 0.0433436 32.4251 0.0261077C32.3835 0.00887169 32.3389 0 32.2939 0C32.2489 0 32.2043 0.00887169 32.1627 0.0261077C32.1212 0.0433436 32.0834 0.0686057 32.0516 0.10045L27.3692 4.78068C24.7876 3.46207 21.8862 2.80276 18.665 2.80276C10.4365 2.80276 4.29726 7.08826 0.24722 15.6593C0.0844285 16.004 0 16.3805 0 16.7617C0 17.1429 0.0844285 17.5194 0.24722 17.8641C1.86524 21.272 3.8132 24.0035 6.09109 26.0588L1.5607 30.5879C1.49652 30.6521 1.46046 30.7392 1.46046 30.83C1.46046 30.9208 1.49652 31.0079 1.5607 31.0721L3.38835 32.8998C3.45258 32.9639 3.53966 33 3.63046 33C3.72125 33 3.80834 32.9639 3.87256 32.8998L34.3613 2.41231C34.3931 2.3805 34.4184 2.34273 34.4356 2.30115C34.4529 2.25957 34.4617 2.215 34.4617 2.16999C34.4617 2.12498 34.4529 2.08042 34.4356 2.03884C34.4184 1.99726 34.3931 1.95949 34.3613 1.92768ZM3.13705 16.7595C6.70331 9.38728 11.7594 5.88524 18.665 5.88524C21 5.88524 23.1231 6.28596 25.0492 7.10068L22.0395 10.1104C20.6142 9.34988 18.9821 9.06763 17.3841 9.30528C15.7861 9.54292 14.3069 10.2879 13.1645 11.4302C12.0221 12.5726 11.2772 14.0519 11.0395 15.6499C10.8019 17.2479 11.0841 18.8799 11.8446 20.3053L8.27323 23.8767C6.29659 22.1321 4.59266 19.7684 3.13705 16.7595ZM13.6988 16.7595C13.6996 16.0046 13.8784 15.2605 14.2208 14.5877C14.5631 13.9148 15.0594 13.3322 15.6692 12.8872C16.279 12.4422 16.9852 12.1473 17.7304 12.0265C18.4756 11.9057 19.2388 11.9624 19.958 12.1919L13.9262 18.2237C13.775 17.7504 13.6983 17.2564 13.6988 16.7595V16.7595Z" fill="black"/>
+              </svg>
+            </div>
+            <a href=#>Forgot Password?</a>
+            <button type="submit" class="btn login__info-btn">Login</button>
+          </form>
+            <p class="login__info-page--text">Don’t have an account? <span> <a href="#"> Sign up </a><span><p>
+          </div>
+          <!-- </div> -->
+        </div>
+        
+      </div>
+    </section>
+  </body>
+</html>

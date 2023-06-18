@@ -1,0 +1,13 @@
+<div class="form__box">
+    <div class="form__input-box form__input-box--left">
+        <label for="fname" class="form__label">Job Status</label>
+        <div class="edit-form-input">
+            <select class="edit-select">
+                <option>+233</option>
+                <option>+22</option>
+                <option>+234</option>
+            </select>
+            <input type="text" class="edit-input" />
+        </div>
+    </div>
+</div>

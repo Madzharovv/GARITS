@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invoice</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <section class="invoice">
+      <div class="invoice__header grid grid-2--column">
+        <div class="invoice__header-box">
+          <h2 class="invoice__header-title">Invoice</h2>
+          <p class="invoice__header-titles special--2">
+            <span>Date:</span>July 4, 2021
+          </p>
+          <p class="invoice__header-titles special"><span>ID:</span>#3098U3</p>
+        </div>
+        <div>
+          <img
+            class="invoice__header-image"
+            src="img/QuickFixfitters-logos_transparent1.png"
+            alt=""
+          />
+        </div>
+        <div class="invoice__header-box">
+          <p class="invoice__header-titles special--2">
+            Customer ID: <span class="sb">28738278</span>
+          </p>
+          <p class="invoice__header-titles">
+            Address: 16 Patrick Road, West Ham, E15 4DI
+          </p>
+        </div>
+        <div class="invoice__header-box">
+          <p class="invoice__header-titles special--2">
+            Vehicle Reg No:<span class="sb">9992883</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="invoice__body grid grid-7--column mt-medium">
+        <div class="invoice__body-title">Job ID</div>
+        <div class="invoice__body-title">Labour Cost</div>
+        <div class="invoice__body-title">Service</div>
+        <div class="invoice__body-title">Total Cost</div>
+        <div class="invoice__body-title">VAT</div>
+        <div class="invoice__body-title">Discount</div>
+        <div class="invoice__body-title">Subtotal</div>
+      </div>
+      <hr style="border: 0.2px solid rgb(32, 32, 32)" />
+      <div class="invoice__body grid grid-7--column mt-small">
+        <div class="invoice__body-details">7862728</div>
+        <div class="invoice__body-details">125.00</div>
+        <div class="invoice__body-details">299</div>
+        <div class="invoice__body-details">425.00</div>
+        <div class="invoice__body-details">15.00</div>
+        <div class="invoice__body-details">15.00</div>
+        <div class="invoice__body-details">£2100</div>
+      </div>
+
+      <div class="invoice__footer">
+        <h3 class="invoice__footer-total">Totals</h3>
+        <hr style="border: 1px solid black" />
+        <div class="invoice__footer-subtotal">
+          <div class="invoice__footer-subtotals">
+            <div>Subtotal:</div>
+            <div>£4000.00</div>
+          </div>
+          <div class="invoice__footer-subtotals">
+            <div>Tax:</div>
+            <div>£40.00</div>
+          </div>
+          <div class="invoice__footer-subtotals">
+            <div>Total:</div>
+            <div>£4040.00</div>
+          </div>
+        </div>
+        <hr style="border: 1px solid black" />
+      </div>
+    </section>
+  </body>
+</html>

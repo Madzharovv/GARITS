@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Quick fix ||See Invoice</title>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="sidebar">
+        <div class="sidebar__menu"></div>
+        <ul class="side-nav">
+          <li class="reception__sidebar-nav-item reception">
+            <a href="/allcustomers.php"
+              ><img
+                class="reception-icon--1"
+                src="img/reception/reception1.svg"
+                alt="Reception Images"
+              /><span>Customers</span></a
+            >
+          </li>
+          <li class="reception__sidebar-nav-item reception">
+            <a href="/allvehicles.php"
+              ><img
+                src="img/reception/reception2.svg"
+                alt="Reception Images"
+              /><span>Vehicles</span></a
+            >
+          </li>
+          <li class="reception__sidebar-nav-item reception">
+            <a href="/alljobs.php"
+              ><img
+                src="img/reception/reception3.svg"
+                alt="Reception Images"
+              /><span>Jobs</span></a
+            >
+          </li>
+          <li class="reception__sidebar-nav-item reception">
+            <a href="/invoicepage.html"
+              ><img
+                src="img/reception/reception4.svg"
+                alt="Reception Images"
+              /><span>Invoice</span></a
+            >
+          </li>
+          <li class="reception__sidebar-nav-item reception">
+            <a href="/availableparts.php"
+              ><img
+                src="img/reception/reception5.svg"
+                alt="Reception Images"
+              /><span>Parts</span></a
+            >
+          </li>
+          <li class="reception__sidebar-nav-item reception reception-last">
+            <a href="/login.html"
+              ><img
+                src="img/reception/reception7.svg"
+                alt="Reception Images"
+              /><span>Logout</span></a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="right-side">
+        <header class="header">
+          <div class="user-avatar">
+            <div class="user-avatar__box">
+              <img
+                src="/assets/images/avatar.png"
+                alt="user"
+                class="user-avatar__photo"
+              />
+            </div>
+            <div class="user-avatar__text">
+              <h3>Welcome</h3>
+              <p>Receptionist 103</p>
+            </div>
+          </div>
+        </header>
+        <main class="admin-view">
+          <div class="dashboard-container">
+            <section class="section section-staff">
+              <div class="staff">
+                <div class="staff__total">
+                  <h3 class="staff__total-text">View Invoice</h3>
+                </div>
+                <a href="/invoice.html" class="staff__cta">Print</a>
+              </div>
+            </section>
+
+            <section class="invoice">
+              <div class="invoice__header grid grid-2--column">
+                <div class="invoice__header-box">
+                  <h2 class="invoice__header-title">Invoice</h2>
+                  <p class="invoice__header-titles special--2">
+                    <span>Date:</span>July 4, 2021
+                  </p>
+                  <p class="invoice__header-titles special">
+                    <span>ID:</span>#3098U3
+                  </p>
+                </div>
+                <div>
+                  <img
+                    class="invoice__header-image"
+                    src="img/QuickFixfitters-logos_transparent1.png"
+                    alt=""
+                  />
+                </div>
+                <div class="invoice__header-box">
+                  <p class="invoice__header-titles special--2">
+                    Customer ID: <span class="sb">28738278</span>
+                  </p>
+                  <p class="invoice__header-titles">
+                    Address: No 13, sjsdakmsjj ashkadsdhaksu
+                  </p>
+                </div>
+                <div class="invoice__header-box">
+                  <p class="invoice__header-titles special--2">
+                    Vehicle Reg No:<span class="sb">9992883</span>
+                  </p>
+                </div>
+              </div>
+
+              <div class="invoice__body grid grid-7--column mt-medium">
+                <div class="invoice__body-title">Job ID</div>
+                <div class="invoice__body-title">Labour Cost</div>
+                <div class="invoice__body-title">Service</div>
+                <div class="invoice__body-title">Total Cost</div>
+                <div class="invoice__body-title">VAT</div>
+                <div class="invoice__body-title">Discount</div>
+                <div class="invoice__body-title">Subtotal</div>
+              </div>
+              <hr style="border: 0.2px solid rgb(32, 32, 32)" />
+              <div class="invoice__body grid grid-7--column mt-small">
+                <div class="invoice__body-details">7862728</div>
+                <div class="invoice__body-details">125:00</div>
+                <div class="invoice__body-details">299</div>
+                <div class="invoice__body-details">425.00</div>
+                <div class="invoice__body-details">15.00</div>
+                <div class="invoice__body-details">15.00</div>
+                <div class="invoice__body-details">N2100</div>
+              </div>
+
+              <div class="invoice__footer">
+                <h3 class="invoice__footer-total">Totals</h3>
+                <hr style="border: 1px solid black" />
+                <div class="invoice__footer-subtotal">
+                  <div class="invoice__footer-subtotals">
+                    <div>Subtotal:</div>
+                    <div>N4000.00</div>
+                  </div>
+                  <div class="invoice__footer-subtotals">
+                    <div>Tax:</div>
+                    <div>N40.00</div>
+                  </div>
+                  <div class="invoice__footer-subtotals">
+                    <div>Total:</div>
+                    <div>N4040.00</div>
+                  </div>
+                </div>
+                <hr style="border: 1px solid black" />
+              </div>
+            </section>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
